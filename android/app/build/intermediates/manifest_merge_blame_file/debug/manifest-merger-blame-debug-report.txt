@@ -1,0 +1,235 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.appunbsolidaria"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\leozi\app-unbsolidaria\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\leozi\app-unbsolidaria\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.37.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\623174cd4892d9fb924ac44b102b25c0\flipper-0.37.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.37.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\623174cd4892d9fb924ac44b102b25c0\flipper-0.37.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-geolocation-service] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+14-->[:react-native-geolocation-service] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->[:react-native-geolocation-service] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+15-->[:react-native-geolocation-service] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[:react-native-geolocation-service] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+16-->[:react-native-geolocation-service] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3c966b50734efbd21796cb74a2b06fa7\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+22-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3c966b50734efbd21796cb74a2b06fa7\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+25
+26    <application
+26-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:6:5-25:19
+27        android:name="com.appunbsolidaria.MainApplication"
+27-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:7:7-38
+28        android:allowBackup="false"
+28-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:11:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:9:7-41
+32        android:label="@string/app_name"
+32-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:8:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:10:7-52
+34        android:theme="@style/AppTheme"
+34-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:12:7-38
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\leozi\app-unbsolidaria\android\app\src\debug\AndroidManifest.xml:7:18-53
+36        <activity
+36-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:13:7-23:18
+37            android:name="com.appunbsolidaria.MainActivity"
+37-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:14:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:16:9-86
+39            android:label="@string/app_name"
+39-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:15:9-41
+40            android:launchMode="singleTask"
+40-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:17:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:18:9-51
+42            <intent-filter>
+42-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:19:9-22:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:20:13-65
+43-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:20:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:21:13-73
+45-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:21:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+48-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:24:7-84
+48-->C:\Users\leozi\app-unbsolidaria\android\app\src\main\AndroidManifest.xml:24:17-81
+49
+50        <provider
+50-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+51            android:name="com.imagepicker.FileProvider"
+51-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+52            android:authorities="com.appunbsolidaria.provider"
+52-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+53            android:exported="false"
+53-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+54            android:grantUriPermissions="true" >
+54-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+55            <meta-data
+55-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+57                android:resource="@xml/provider_paths" />
+57-->[:react-native-image-picker] C:\Users\leozi\app-unbsolidaria\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+58        </provider>
+59
+60        <service
+60-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3a872cf7db068bab29f5555683d5d736\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3a872cf7db068bab29f5555683d5d736\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:18:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fcc2e9f22f3c437c819b915cc0b8cb21\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3a872cf7db068bab29f5555683d5d736\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3a872cf7db068bab29f5555683d5d736\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+65                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+65-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3a872cf7db068bab29f5555683d5d736\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3a872cf7db068bab29f5555683d5d736\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+67            <meta-data
+67-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3c966b50734efbd21796cb74a2b06fa7\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+68                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+68-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3c966b50734efbd21796cb74a2b06fa7\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3c966b50734efbd21796cb74a2b06fa7\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+71-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+73        </service> <!-- Needs to be explicitly declared on P+ -->
+74        <uses-library
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+75            android:name="org.apache.http.legacy"
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+76            android:required="false" />
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+77
+78        <receiver
+78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+79            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+79-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+80            android:exported="true"
+80-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+81            android:permission="com.google.android.c2dm.permission.SEND" >
+81-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+82            <intent-filter>
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+83                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+83-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+83-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\9155f56475caca90fe1e468892247d79\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+84            </intent-filter>
+85        </receiver>
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+91
+92        <provider
+92-->[com.google.firebase:firebase-common:19.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fcc2e9f22f3c437c819b915cc0b8cb21\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+93            android:name="com.google.firebase.provider.FirebaseInitProvider"
+93-->[com.google.firebase:firebase-common:19.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fcc2e9f22f3c437c819b915cc0b8cb21\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+94            android:authorities="com.appunbsolidaria.firebaseinitprovider"
+94-->[com.google.firebase:firebase-common:19.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fcc2e9f22f3c437c819b915cc0b8cb21\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+95            android:exported="false"
+95-->[com.google.firebase:firebase-common:19.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fcc2e9f22f3c437c819b915cc0b8cb21\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+96            android:initOrder="100" />
+96-->[com.google.firebase:firebase-common:19.3.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\fcc2e9f22f3c437c819b915cc0b8cb21\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+97
+98        <receiver
+98-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+99            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+99-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+100            android:enabled="true"
+100-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+101            android:exported="false" >
+101-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+102        </receiver>
+103        <receiver
+103-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+106            android:exported="true"
+106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+107            android:permission="android.permission.INSTALL_PACKAGES" >
+107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+108            <intent-filter>
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+109                <action android:name="com.android.vending.INSTALL_REFERRER" />
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+114            android:name="com.google.android.gms.measurement.AppMeasurementService"
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+116            android:exported="false" />
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+117        <service
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+118            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\28d2d411b98fbd804e521a2dabe6bcb7\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\c0fe4d37f2db2de233bc7a83297cc166\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\c0fe4d37f2db2de233bc7a83297cc166\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leozi\.gradle\caches\transforms-2\files-2.1\c0fe4d37f2db2de233bc7a83297cc166\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
